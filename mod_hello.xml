@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<extension type = "module" version = "3.9.28" client = "site" method="upgrade">
+
+   <name>Hello, World!</name>
+   <author>Tutorials Point</author>
+   <version>1.0.0</version>
+   <description>A simple Hello World! module.</description>
+	
+   <files>
+      <filename>index.html</filename>
+      <filename module = "mod_hello">mod_hello.php</filename>
+      <filename>mod_hello.xml</filename>
+      
+   </files>
+	
+   <config>
+   </config>
+	
+</extension>
